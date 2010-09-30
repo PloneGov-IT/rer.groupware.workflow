@@ -2,8 +2,8 @@
 <dc-workflow workflow_id="groupware_workflow"
 			 xmlns:i18n="http://xml.zope.org/namespaces/i18n"
 			 i18n:domain="plone"
-             title="Groupware Workflow"
-             description=" A workflow for basic objects in Groupware"
+             title="Groupware PortletPage and Topics Workflow"
+             description=" A workflow for PortletPage and Topics in Groupware"
              state_variable="review_state"
              initial_state="visible">
  <permission>Access contents information</permission>
@@ -23,13 +23,13 @@
                   acquired="False">
    <permission-role>Manager</permission-role>
    <permission-role>Owner</permission-role>
-   <permission-role>Editor</permission-role>
+   <permission-role>EditorAdv</permission-role>
   </permission-map>
   <permission-map name="Modify portal content"
                   acquired="False">
    <permission-role>Manager</permission-role>
    <permission-role>Owner</permission-role>
-   <permission-role>Editor</permission-role>
+   <permission-role>EditorAdv</permission-role>
   </permission-map>
   <permission-map name="View" acquired="False">
    <permission-role>Anonymous</permission-role>
@@ -47,7 +47,7 @@
                   acquired="False">
    <permission-role>Manager</permission-role>
    <permission-role>Owner</permission-role>
-   <permission-role>Editor</permission-role>
+   <permission-role>EditorAdv</permission-role>
   </permission-map>
   <permission-map name="List folder contents"
                   acquired="False">

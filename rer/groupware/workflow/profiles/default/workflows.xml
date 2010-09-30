@@ -2,6 +2,7 @@
 <object name="portal_workflow" meta_type="Plone Workflow Tool" purge="False">
  <object name="groupware_workflow" meta_type="Workflow"/>
  <object name="groupware_folders_workflow" meta_type="Workflow"/>
+ <object name="groupware_portletpage_topics_workflow" meta_type="Workflow"/>
  <bindings>
   <default>
    <bound-workflow workflow_id="groupware_workflow"/>
@@ -11,6 +12,12 @@
   </type>
   <type type_id="Folder">
   	<bound-workflow workflow_id="groupware_folders_workflow" />
+  </type>
+  <type type_id="Portlet Page">
+  	<bound-workflow workflow_id="groupware_portletpage_topics_workflow" />
+  </type>
+  <type type_id="Topic">
+  	<bound-workflow workflow_id="groupware_portletpage_topics_workflow" />
   </type>
  </bindings>
 </object>
