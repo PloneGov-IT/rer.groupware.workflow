@@ -69,7 +69,7 @@
   <action url="%(content_url)s/content_status_modify?workflow_action=publish"
           category="workflow">Publish</action>
   <guard>
-   <guard-permission>Review portal content</guard-permission>
+   <guard-permission>Request review</guard-permission>
   </guard>
  </transition>
 
@@ -82,7 +82,7 @@
   <action url="%(content_url)s/content_status_modify?workflow_action=retract"
           category="workflow">Retract</action>
   <guard>
-   <guard-permission>Request review</guard-permission>
+   <guard-permission>Review portal content</guard-permission>
   </guard>
  </transition>
  <worklist worklist_id="reviewer_queue" title="">
