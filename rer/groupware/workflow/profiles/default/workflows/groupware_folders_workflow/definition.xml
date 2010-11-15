@@ -16,20 +16,19 @@
 </description>
   <permission-map name="Access contents information"
                   acquired="True">
-   <permission-role>Reader</permission-role>
   </permission-map>
   <permission-map name="Change portal events"
                   acquired="False">
-   <permission-role>Manager</permission-role>
    <permission-role>EditorAdv</permission-role>
+   <permission-role>Manager</permission-role>
   </permission-map>
   <permission-map name="List folder contents"
                   acquired="True">
   </permission-map>
   <permission-map name="Modify portal content"
                   acquired="False">
-   <permission-role>Manager</permission-role>
    <permission-role>EditorAdv</permission-role>
+   <permission-role>Manager</permission-role>
   </permission-map>
   <permission-map name="View" acquired="True">
   </permission-map>

@@ -14,10 +14,10 @@
   	<bound-workflow workflow_id="groupware_folders_workflow" />
   </type>
   <type type_id="Portlet Page">
-  	<bound-workflow workflow_id="groupware_portletpage_topics_workflow" />
+  	<bound-workflow workflow_id="groupware_folders_workflow" />
   </type>
   <type type_id="Topic">
-  	<bound-workflow workflow_id="groupware_portletpage_topics_workflow" />
+  	<bound-workflow workflow_id="groupware_folders_workflow" />
   </type>
  </bindings>
 </object>

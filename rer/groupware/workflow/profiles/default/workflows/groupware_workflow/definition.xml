@@ -11,7 +11,7 @@
  <permission>List folder contents</permission>
  <permission>Modify portal content</permission>
  <permission>View</permission>
- <state state_id="visible" title="Public draft">
+ <state state_id="visible" title="Draft" i18n:attributes="title">
   <description>Visible to everyone, but not approved by the reviewers.
 </description>
   <exit-transition transition_id="publish"/>
