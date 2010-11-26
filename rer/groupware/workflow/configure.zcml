@@ -12,7 +12,7 @@
   <!-- Register the installation GenericSetup extension profile -->
   <genericsetup:registerProfile
       name="default"
-      title="Rer Groupware workflow"
+      title="RER Groupware workflow"
       directory="profiles/default"
       description=""
       provides="Products.GenericSetup.interfaces.EXTENSION"
