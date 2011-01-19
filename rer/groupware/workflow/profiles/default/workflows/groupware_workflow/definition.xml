@@ -5,7 +5,7 @@
              title="Groupware Workflow"
              description=" A workflow for basic objects in Groupware"
              state_variable="review_state"
-             initial_state="published">
+             initial_state="visible">
  <permission>Access contents information</permission>
  <permission>Change portal events</permission>
  <permission>List folder contents</permission>
