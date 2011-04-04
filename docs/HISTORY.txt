@@ -1,6 +1,11 @@
 Changelog
 =========
 
+1.0.4-Unreleased (2011-04-??)
+------------------
+
+* set folders with groupware_workflow [andrea]
+
 1.0.3 (2011-01-24)
 ------------------
 

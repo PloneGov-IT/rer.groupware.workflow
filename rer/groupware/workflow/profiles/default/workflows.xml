@@ -16,7 +16,7 @@
   	<bound-workflow workflow_id="groupware_workflow" />
   </type>
   <type type_id="Folder">
-  	<bound-workflow workflow_id="groupware_folders_workflow" />
+  	<bound-workflow workflow_id="groupware_workflow" />
   </type>
   <type type_id="PloneboardForum">
   	<bound-workflow workflow_id="groupware_forum_workflow" />
