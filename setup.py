@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '1.0.4-Unreleased'
+version = '1.0.4'
 
 setup(name='rer.groupware.workflow',
       version=version,
