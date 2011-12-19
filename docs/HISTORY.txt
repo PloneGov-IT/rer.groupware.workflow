@@ -1,7 +1,7 @@
 Changelog
 =========
 
-1.0.5 (2011-12-??)
+1.0.5 (2011-12-19)
 ------------------
 
 * fixed permission "View" in groupware_workflow [andrea]
