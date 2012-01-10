@@ -1,6 +1,11 @@
 Changelog
 =========
 
+1.0.6 (2012-01-??)
+------------------
+
+* fixed Ploneboard: Approve Comment in groupware_forum_workflow [andrea]
+
 1.0.5 (2011-12-19)
 ------------------
 

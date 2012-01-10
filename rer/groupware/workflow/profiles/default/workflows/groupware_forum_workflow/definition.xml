@@ -7,6 +7,7 @@
  <permission>Add portal content</permission>
  <permission>Ploneboard: Moderate Forum</permission>
  <permission>Ploneboard: Retract Comment</permission>
+ <permission>Ploneboard: Approve Comment</permission>
  <permission>Request review</permission>
  <permission>View</permission>
  <state state_id="freeforall" title="Free for all">
@@ -28,6 +29,13 @@
   </permission-map>
   <permission-map name="Ploneboard: Moderate Forum"
                   acquired="False">
+  </permission-map>
+  <permission-map name="Ploneboard: Approve Comment"
+                  acquired="True">
+   <permission-role>Contributor</permission-role>
+   <permission-role>Manager</permission-role>
+   <permission-role>Member</permission-role>
+   <permission-role>Reviewer</permission-role>
   </permission-map>
   <permission-map name="Ploneboard: Retract Comment"
                   acquired="False">
@@ -66,6 +74,13 @@
   <permission-map name="Ploneboard: Moderate Forum"
                   acquired="False">
   </permission-map>
+  <permission-map name="Ploneboard: Approve Comment"
+                  acquired="True">
+   <permission-role>Contributor</permission-role>
+   <permission-role>Manager</permission-role>
+   <permission-role>Member</permission-role>
+   <permission-role>Reviewer</permission-role>
+  </permission-map>
   <permission-map name="Ploneboard: Retract Comment"
                   acquired="False">
    <permission-role>Manager</permission-role>
@@ -98,6 +113,11 @@
    <permission-role>Reviewer</permission-role>
   </permission-map>
   <permission-map name="Ploneboard: Moderate Forum"
+                  acquired="False">
+   <permission-role>Manager</permission-role>
+   <permission-role>Reviewer</permission-role>
+  </permission-map>
+  <permission-map name="Ploneboard: Approve Comment"
                   acquired="False">
    <permission-role>Manager</permission-role>
    <permission-role>Reviewer</permission-role>
