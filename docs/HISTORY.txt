@@ -1,6 +1,11 @@
 Changelog
 =========
 
+1.0.7 (2012-02-??)
+------------------
+
+* fixed groupware ploneboard workflows [andrea]
+
 1.0.6 (2012-01-16)
 ------------------
 

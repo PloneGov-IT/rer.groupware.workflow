@@ -5,9 +5,10 @@
              initial_state="memberposting">
  <permission>Access contents information</permission>
  <permission>Add portal content</permission>
+ <permission>Ploneboard: Add Comment</permission>
+ <permission>Ploneboard: Approve Comment</permission>
  <permission>Ploneboard: Moderate Forum</permission>
  <permission>Ploneboard: Retract Comment</permission>
- <permission>Ploneboard: Approve Comment</permission>
  <permission>Request review</permission>
  <permission>View</permission>
  <state state_id="freeforall" title="Free for all">
@@ -27,6 +28,12 @@
    <!--permission-role>Member</permission-role-->
    <permission-role>Reviewer</permission-role>
   </permission-map>
+  <permission-map name="Ploneboard: Add Comment"
+                  acquired="True">
+   <permission-role>Contributor</permission-role>
+   <permission-role>Manager</permission-role>
+   <permission-role>Reviewer</permission-role>
+  </permission-map>
   <permission-map name="Ploneboard: Moderate Forum"
                   acquired="False">
   </permission-map>
@@ -34,7 +41,6 @@
                   acquired="True">
    <permission-role>Contributor</permission-role>
    <permission-role>Manager</permission-role>
-   <permission-role>Member</permission-role>
    <permission-role>Reviewer</permission-role>
   </permission-map>
   <permission-map name="Ploneboard: Retract Comment"
@@ -45,7 +51,6 @@
   <permission-map name="Request review" acquired="True">
    <permission-role>Contributor</permission-role>
    <permission-role>Manager</permission-role>
-   <permission-role>Member</permission-role>
    <permission-role>Reviewer</permission-role>
   </permission-map>
   <permission-map name="View" acquired="True">
@@ -67,6 +72,12 @@
    <permission-role>Reviewer</permission-role>
   </permission-map>
   <permission-map name="Add portal content" acquired="True">
+   <permission-role>Contributor</permission-role>
+   <permission-role>Manager</permission-role>
+   <permission-role>Reviewer</permission-role>
+  </permission-map>
+  <permission-map name="Ploneboard: Add Comment"
+                  acquired="True">
    <permission-role>Contributor</permission-role>
    <permission-role>Manager</permission-role>
    <permission-role>Reviewer</permission-role>
@@ -108,6 +119,12 @@
    <permission-role>Reviewer</permission-role>
   </permission-map>
   <permission-map name="Add portal content" acquired="True">
+   <permission-role>Contributor</permission-role>
+   <permission-role>Manager</permission-role>
+   <permission-role>Reviewer</permission-role>
+  </permission-map>
+  <permission-map name="Ploneboard: Add Comment"
+                  acquired="True">
    <permission-role>Contributor</permission-role>
    <permission-role>Manager</permission-role>
    <permission-role>Reviewer</permission-role>

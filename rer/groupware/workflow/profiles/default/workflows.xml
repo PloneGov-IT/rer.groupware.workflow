@@ -4,6 +4,8 @@
  <object name="groupware_folders_workflow" meta_type="Workflow"/>
  <object name="groupware_portletpage_topics_workflow" meta_type="Workflow"/>
  <object name="groupware_forum_workflow" meta_type="Workflow"/>
+ <object name="groupware_conversation_workflow" meta_type="Workflow"/>
+ <object name="groupware_comment_workflow" meta_type="Workflow"/>
  <object name="eXtreme_Project_Workflow" meta_type="Workflow"/>
  <bindings>
   <default>
@@ -20,6 +22,12 @@
   </type>
   <type type_id="PloneboardForum">
   	<bound-workflow workflow_id="groupware_forum_workflow" />
+  </type>
+  <type type_id="PloneboardConversation">
+  	<bound-workflow workflow_id="groupware_conversation_workflow" />
+  </type>
+  <type type_id="PloneboardComment">
+  	<bound-workflow workflow_id="groupware_comment_workflow" />
   </type>
   <type type_id="Portlet Page">
   	<bound-workflow workflow_id="groupware_folders_workflow" />
