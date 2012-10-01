@@ -1,6 +1,11 @@
 Changelog
 =========
 
+1.1.0 (unreleased)
+------------------
+
+* removed private and memberposting states from ploneboard workflows [andrea]
+
 1.0.7 (2012-02-06)
 ------------------
 

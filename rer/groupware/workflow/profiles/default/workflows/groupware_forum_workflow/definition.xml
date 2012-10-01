@@ -2,7 +2,7 @@
 <dc-workflow workflow_id="groupware_forum_workflow"
              title="Forum Workflow [Groupware]"
              description="" state_variable="review_state"
-             initial_state="memberposting">
+             initial_state="freeforall">
  <permission>Access contents information</permission>
  <permission>Add portal content</permission>
  <permission>Ploneboard: Add Comment</permission>
@@ -12,7 +12,6 @@
  <permission>Request review</permission>
  <permission>View</permission>
  <state state_id="freeforall" title="Free for all">
-  <exit-transition transition_id="make_memberposting"/>
   <exit-transition transition_id="make_moderated"/>
   <exit-transition transition_id="make_private"/>
   <permission-map name="Access contents information"
@@ -60,57 +59,8 @@
    <permission-role>Reviewer</permission-role>
   </permission-map>
  </state>
- <state state_id="memberposting"
-        title="Require membership to post">
-  <exit-transition transition_id="make_freeforall"/>
-  <exit-transition transition_id="make_moderated"/>
-  <exit-transition transition_id="make_private"/>
-  <permission-map name="Access contents information"
-                  acquired="True">
-   <permission-role>Manager</permission-role>
-   <permission-role>Reader</permission-role>
-   <permission-role>Reviewer</permission-role>
-  </permission-map>
-  <permission-map name="Add portal content" acquired="True">
-   <permission-role>Contributor</permission-role>
-   <permission-role>Manager</permission-role>
-   <permission-role>Reviewer</permission-role>
-  </permission-map>
-  <permission-map name="Ploneboard: Add Comment"
-                  acquired="True">
-   <permission-role>Contributor</permission-role>
-   <permission-role>Manager</permission-role>
-   <permission-role>Reviewer</permission-role>
-  </permission-map>
-  <permission-map name="Ploneboard: Moderate Forum"
-                  acquired="False">
-  </permission-map>
-  <permission-map name="Ploneboard: Approve Comment"
-                  acquired="True">
-   <permission-role>Contributor</permission-role>
-   <permission-role>Manager</permission-role>
-   <permission-role>Member</permission-role>
-   <permission-role>Reviewer</permission-role>
-  </permission-map>
-  <permission-map name="Ploneboard: Retract Comment"
-                  acquired="False">
-   <permission-role>Manager</permission-role>
-   <permission-role>Reviewer</permission-role>
-  </permission-map>
-  <permission-map name="Request review" acquired="False">
-   <permission-role>Contributor</permission-role>
-   <permission-role>Manager</permission-role>
-   <permission-role>Reviewer</permission-role>
-  </permission-map>
-  <permission-map name="View" acquired="True">
-   <permission-role>Manager</permission-role>
-   <permission-role>Reader</permission-role>
-   <permission-role>Reviewer</permission-role>
-  </permission-map>
- </state>
  <state state_id="moderated" title="Moderated forum">
   <exit-transition transition_id="make_freeforall"/>
-  <exit-transition transition_id="make_memberposting"/>
   <exit-transition transition_id="make_private"/>
   <permission-map name="Access contents information"
                   acquired="True">
@@ -157,7 +107,6 @@
  </state>
  <state state_id="private" title="Private to members only">
   <exit-transition transition_id="make_freeforall"/>
-  <exit-transition transition_id="make_memberposting"/>
   <exit-transition transition_id="make_moderated"/>
   <permission-map name="Access contents information"
                   acquired="False">
@@ -197,16 +146,6 @@
              before_script="" after_script="">
   <action url="%(content_url)s/content_publish_form"
           category="workflow">Make free-for-all</action>
-  <guard>
-   <guard-permission>Ploneboard: Add Forum</guard-permission>
-  </guard>
- </transition>
- <transition transition_id="make_memberposting"
-             title="Only let members post"
-             new_state="memberposting" trigger="USER"
-             before_script="" after_script="">
-  <action url="%(content_url)s/content_publish_form"
-          category="workflow">Make member-posting</action>
   <guard>
    <guard-permission>Ploneboard: Add Forum</guard-permission>
   </guard>
