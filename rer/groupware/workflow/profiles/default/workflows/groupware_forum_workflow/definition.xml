@@ -1,7 +1,9 @@
 <?xml version="1.0"?>
-<dc-workflow workflow_id="groupware_forum_workflow"
+<dc-workflow xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+             workflow_id="groupware_forum_workflow"
              title="Forum Workflow [Groupware]"
              description="" state_variable="review_state"
+             i18n:domain="plone"
              initial_state="freeforall">
  <permission>Access contents information</permission>
  <permission>Add portal content</permission>
@@ -11,7 +13,7 @@
  <permission>Ploneboard: Retract Comment</permission>
  <permission>Request review</permission>
  <permission>View</permission>
- <state state_id="freeforall" title="Free for all">
+ <state state_id="freeforall" title="Forum free for all" i18n:attributes="title">
   <exit-transition transition_id="make_moderated"/>
   <permission-map name="Access contents information"
                   acquired="True">
@@ -58,7 +60,7 @@
    <permission-role>Reviewer</permission-role>
   </permission-map>
  </state>
- <state state_id="moderated" title="Moderated forum">
+ <state state_id="moderated" title="Forum moderated" i18n:attributes="title">
   <exit-transition transition_id="make_freeforall"/>
   <permission-map name="Access contents information"
                   acquired="True">
