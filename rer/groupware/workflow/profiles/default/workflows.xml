@@ -6,7 +6,6 @@
  <object name="groupware_forum_workflow" meta_type="Workflow"/>
  <object name="groupware_conversation_workflow" meta_type="Workflow"/>
  <object name="groupware_comment_workflow" meta_type="Workflow"/>
- <object name="eXtreme_Project_Workflow" meta_type="Workflow"/>
  <bindings>
   <default>
    <bound-workflow workflow_id="groupware_workflow"/>

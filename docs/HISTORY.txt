@@ -7,6 +7,7 @@ Changelog
 Plone 4 version
 
 - support for z3c.autoinclude [keul]
+- removed extreme management workflows definitions [andrea]
 
 
 1.1.1 (2012-10-03)
