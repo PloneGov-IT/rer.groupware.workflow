@@ -8,6 +8,7 @@ Plone 4 version
 
 - support for z3c.autoinclude [keul]
 - removed extreme management workflows definitions [andrea]
+- added Site Managers role support [andrea]
 
 
 1.1.1 (2012-10-03)

@@ -21,6 +21,7 @@
                   acquired="False">
    <permission-role>EditorAdv</permission-role>
    <permission-role>Manager</permission-role>
+   <permission-role>Site Administrator"</permission-role>
   </permission-map>
   <permission-map name="List folder contents"
                   acquired="True">
@@ -29,6 +30,7 @@
                   acquired="False">
    <permission-role>EditorAdv</permission-role>
    <permission-role>Manager</permission-role>
+   <permission-role>Site Administrator"</permission-role>
   </permission-map>
   <permission-map name="View" acquired="True">
   </permission-map>
