@@ -17,9 +17,6 @@
   <type type_id="Folder">
   	<bound-workflow workflow_id="groupware_workflow" />
   </type>
-  <type type_id="PloneboardForum">
-  	<bound-workflow workflow_id="groupware_forum_workflow" />
-  </type>
   <type type_id="PloneboardConversation">
   	<bound-workflow workflow_id="groupware_conversation_workflow" />
   </type>
