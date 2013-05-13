@@ -8,8 +8,10 @@ Plone 4 version
 
 - support for z3c.autoinclude [keul]
 - removed extreme management workflows definitions [andrea]
+- removed "groupware_portletpage_topics_workflow" [keul]
+- groupware_folders_workflow workflow moved to rer.groupware.room [keul]
+- removed deprecated i18n folder for Plone domain [keul]
 - added Site Managers role support [andrea]
-
 
 1.1.1 (2012-10-03)
 ------------------
