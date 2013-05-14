@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
-<dc-workflow workflow_id="groupware_conversation_workflow"
-             title="Groupware Conversation Workflow [Ploneboard]"
-             description="" state_variable="review_state"
+<dc-workflow workflow_id="ploneboard_conversation_workflow"
+             title="Conversation Workflow [Ploneboard]"
+             state_variable="review_state"
              initial_state="pending">
  <permission>Access contents information</permission>
- <permission>Add portal content</permission>
+ <permission>View</permission>
  <permission>Modify portal content</permission>
  <permission>Ploneboard: Add Comment</permission>
- <permission>View</permission>
+ <permission>Add portal content</permission>
  <state state_id="active" title="Active">
   <exit-transition transition_id="lock"/>
   <permission-map name="Access contents information"
@@ -59,10 +59,10 @@
   <permission-map name="Modify portal content"
                   acquired="False">
    <permission-role>Manager</permission-role>
-   <permission-role>LocalManager</permission-role>
-   <permission-role>EditorAdv</permission-role>
    <permission-role>Reviewer</permission-role>
    <permission-role>Owner</permission-role>
+   <permission-role>LocalManager</permission-role>
+   <permission-role>EditorAdv</permission-role>
    <permission-role>Site Administrator</permission-role>
   </permission-map>
   <permission-map name="Ploneboard: Add Comment"
@@ -70,10 +70,10 @@
   </permission-map>
   <permission-map name="View" acquired="False">
    <permission-role>Manager</permission-role>
-   <permission-role>LocalManager</permission-role>
-   <permission-role>EditorAdv</permission-role>
    <permission-role>Reviewer</permission-role>
    <permission-role>Owner</permission-role>
+   <permission-role>LocalManager</permission-role>
+   <permission-role>EditorAdv</permission-role>
    <permission-role>Site Administrator</permission-role>
   </permission-map>
  </state>
@@ -96,10 +96,10 @@
   </permission-map>
   <permission-map name="View" acquired="False">
    <permission-role>Manager</permission-role>
-   <permission-role>LocalManager</permission-role>
-   <permission-role>EditorAdv</permission-role>
    <permission-role>Reviewer</permission-role>
    <permission-role>Owner</permission-role>
+   <permission-role>LocalManager</permission-role>
+   <permission-role>EditorAdv</permission-role>
    <permission-role>Site Administrator</permission-role>
   </permission-map>
  </state>

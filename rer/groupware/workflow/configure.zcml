@@ -10,7 +10,7 @@
 
   <genericsetup:registerProfile
       name="default"
-      title="RER Groupware workflow"
+      title="RER Groupware: workflows"
       directory="profiles/default"
       description=""
       provides="Products.GenericSetup.interfaces.EXTENSION"
