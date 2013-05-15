@@ -1,8 +1,11 @@
 # -*- coding: utf-8 -*-
-import config
 
+import logging
 from zope.i18nmessageid import MessageFactory
 
+import config
+
+logger = logging.getLogger('rer.groupware.workflow')
 groupwareworkflowMessageFactory = MessageFactory('rer.groupware.workflow')
 
 def initialize(context):

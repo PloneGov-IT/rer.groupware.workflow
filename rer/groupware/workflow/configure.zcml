@@ -8,6 +8,11 @@
   <five:registerPackage package="." initialize=".initialize" />
   <i18n:registerTranslations directory="locales" />
 
+  <subscriber for = "rer.groupware.room.interfaces.group_room.IGroupRoom
+                     rer.groupware.room.events.room_events.IRoomPostCreatedEvent"
+              handler = ".events.RoomWorkflowPolicy"
+              />
+
   <genericsetup:registerProfile
       name="default"
       title="RER Groupware: workflows"

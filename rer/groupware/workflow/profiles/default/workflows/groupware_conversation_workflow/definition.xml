@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<dc-workflow workflow_id="ploneboard_conversation_workflow"
-             title="Conversation Workflow [Ploneboard]"
+<dc-workflow workflow_id="groupware_conversation_workflow"
+             title="Conversation Workflow [Ploneboard - Groupware]"
              state_variable="review_state"
              initial_state="pending">
  <permission>Access contents information</permission>

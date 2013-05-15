@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
-<dc-workflow workflow_id="ploneboard_comment_workflow" title="Comment Workflow [Ploneboard]" description="" state_variable="review_state" initial_state="initial" manager_bypass="False">
+<dc-workflow workflow_id="groupware_comment_workflow" title="Comment Workflow  [Ploneboard - Groupware]"
+             description="" state_variable="review_state" initial_state="initial" manager_bypass="False">
  <permission>Access contents information</permission>
  <permission>Add portal content</permission>
  <permission>Delete objects</permission>

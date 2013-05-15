@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<object name="groupware" meta_type="WorkflowPolicy">
+ <property name="title">Groupware</property>
+ <bindings>
+  <default>
+   <bound-workflow workflow_id="groupware_workflow"/>
+  </default>
+  <type default_chain="true" type_id="File" />
+  <type default_chain="true" type_id="Image" />
+  <type default_chain="true" type_id="Folder" />
+  <type default_chain="true" type_id="Document" />
+  <type default_chain="true" type_id="Event" />
+  <type default_chain="true" type_id="News Item" />
+  <type default_chain="true" type_id="Link" />
+  <type type_id="PloneboardConversation">
+   <bound-workflow workflow_id="groupware_conversation_workflow"/>
+  </type>
+  <type type_id="PloneboardComment">
+   <bound-workflow workflow_id="groupware_comment_workflow"/>
+  </type>
+  <type type_id="Portlet Page">
+   <bound-workflow workflow_id="groupware_folders_workflow"/>
+  </type>
+  <type type_id="Topic">
+   <bound-workflow workflow_id="groupware_folders_workflow"/>
+  </type>
+  <type type_id="Collection">
+   <bound-workflow workflow_id="groupware_folders_workflow"/>
+  </type>
+  <type type_id="Blog">
+   <bound-workflow workflow_id="groupware_folders_workflow"/>
+  </type>
+ </bindings>
+</object>

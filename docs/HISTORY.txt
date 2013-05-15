@@ -13,6 +13,7 @@ Plone 4 version
 - removed deprecated i18n folder for Plone domain [keul]
 - added Site Managers role support [andrea]
 - removed forum workflow (conversation and comment are kept) [keul]
+- workflow registered as a local policy [keul]
 
 1.1.1 (2012-10-03)
 ------------------
