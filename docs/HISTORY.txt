@@ -11,7 +11,7 @@ Plone 4 version
 - removed "groupware_portletpage_topics_workflow" [keul]
 - groupware_folders_workflow workflow moved to rer.groupware.room [keul]
 - removed deprecated i18n folder for Plone domain [keul]
-- added Site Managers role support [andrea]
+- added Site Aministrators role support [andrea]
 - removed forum workflow (conversation and comment are kept) [keul]
 - workflow registered as a local policy [keul]
 
