@@ -19,6 +19,9 @@
   <type type_id="PloneboardComment">
    <bound-workflow workflow_id="groupware_comment_workflow"/>
   </type>
+  <type type_id="PloneboardForum">
+   <bound-workflow workflow_id="groupware_forum_workflow"/>
+  </type>
   <type type_id="Portlet Page">
    <bound-workflow workflow_id="groupware_folders_workflow"/>
   </type>
