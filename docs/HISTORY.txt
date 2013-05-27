@@ -14,12 +14,12 @@ Plone 4 version
 - added Site Aministrators role support [andrea]
 - removed forum workflow (conversation and comment are kept) [keul]
 - workflow registered as a local policy [keul]
+- workflow for folders [keul]
 
 1.1.1 (2012-10-03)
 ------------------
 
 - Fixed forum workflow translations [andrea]
-
 
 1.1.0 (2012-10-02)
 ------------------

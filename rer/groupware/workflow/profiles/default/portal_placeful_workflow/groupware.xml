@@ -8,7 +8,6 @@
   <type default_chain="true" type_id="BlogEntry" />
   <type default_chain="true" type_id="File" />
   <type default_chain="true" type_id="Image" />
-  <type default_chain="true" type_id="Folder" />
   <type default_chain="true" type_id="Document" />
   <type default_chain="true" type_id="Event" />
   <type default_chain="true" type_id="News Item" />
@@ -34,6 +33,9 @@
   </type>
   <type type_id="Blog">
    <bound-workflow workflow_id="groupware_folders_workflow"/>
+  </type>
+  <type type_id="Folder">
+   <bound-workflow workflow_id="groupware_basic_folder_workflow"/>
   </type>
  </bindings>
 </object>
