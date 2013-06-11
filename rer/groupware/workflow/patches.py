@@ -13,9 +13,12 @@ try:
     
     from rer.groupware.workflow import logger
     
-    logger.warning('Patching Ploneboard: disabling the "Edit own comments" feature')
-    PloneboardForum.schema['allowEditComment'].widget.visible = {'edit': 'invisible',
-                                                                 'view': 'invisible'}
+    try:
+        PloneboardForum.schema['allowEditComment'].widget.visible = {'edit': 'invisible',
+                                                                     'view': 'invisible'}
+        logger.warning('Patching Ploneboard: disabling the "Edit own comments" feature')
+    except KeyError:
+        pass
     PloneboardComment.PloneboardComment.__ac_local_roles_block__ = False
 except ImportError:
-    logger.warning('Patching Ploneboard: not found... patching aborted')
+    pass
