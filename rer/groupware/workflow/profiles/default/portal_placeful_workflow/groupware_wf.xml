@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<object name="groupware" meta_type="WorkflowPolicy">
+<object name="groupware_wf" meta_type="WorkflowPolicy">
  <property name="title">Groupware</property>
  <bindings>
   <default>
