@@ -4,7 +4,7 @@ Changelog
 2.0.1 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Changed placeful workflow name, because was the same of the site [åndrea]
 
 
 2.0.0 (2013-06-24)

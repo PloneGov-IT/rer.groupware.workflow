@@ -1,4 +1,4 @@
 <?xml version="1.0"?>
 <object name="portal_placeful_workflow" meta_type="Placeful Workflow Tool">
- <object name="groupware" meta_type="WorkflowPolicy"/>
+ <object name="groupware-wf" meta_type="WorkflowPolicy"/>
 </object>
