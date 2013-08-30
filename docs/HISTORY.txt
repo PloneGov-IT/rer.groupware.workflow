@@ -5,7 +5,7 @@ Changelog
 ------------------
 
 - Changed placeful workflow name, because was the same of the site [åndrea]
-- Fixed groupware_forum_workflow. Now has only 2 states [andrea]
+- Fixed groupware_forum_workflow. Now has only 2 states and fixed permissions [andrea]
 
 2.0.0 (2013-06-24)
 ------------------
