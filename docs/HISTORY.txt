@@ -1,10 +1,10 @@
 Changelog
 =========
 
-2.0.1 (unreleased)
+2.1.0 (2013-11-05)
 ------------------
 
-- Changed placeful workflow name, because was the same of the site [åndrea]
+- Changed placeful workflow name, because was the same of the site [andrea]
 - Fixed groupware_forum_workflow. Now has only 2 states and fixed permissions [andrea]
 
 2.0.0 (2013-06-24)
