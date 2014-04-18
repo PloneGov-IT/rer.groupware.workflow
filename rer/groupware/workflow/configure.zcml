@@ -7,7 +7,8 @@
 
   <five:registerPackage package="." initialize=".initialize" />
   <i18n:registerTranslations directory="locales" />
-
+  <include file="upgrades.zcml" />
+  
   <subscriber for = "rer.groupware.room.interfaces.group_room.IGroupRoom
                      rer.groupware.room.events.room_events.IRoomPostCreatedEvent"
               handler = ".events.RoomWorkflowPolicy"

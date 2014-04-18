@@ -4,7 +4,7 @@ Changelog
 2.1.1 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- EditorAdv can now delete Forum comments [cekk]
 
 
 2.1.0 (2013-11-05)
