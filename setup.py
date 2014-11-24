@@ -6,8 +6,8 @@ version = '2.1.2.dev0'
 setup(name='rer.groupware.workflow',
       version=version,
       description="rer.groupware.workflow",
-      long_description=open("README.txt").read() + "\n" +
-                       open(os.path.join("docs", "HISTORY.txt")).read(),
+      long_description=open("README.rst").read() + "\n" +
+                       open(os.path.join("docs", "HISTORY.rst")).read(),
       # Get more strings from http://www.python.org/pypi?%3Aaction=list_classifiers
       classifiers=[
         "Programming Language :: Python",
@@ -16,7 +16,7 @@ setup(name='rer.groupware.workflow',
       keywords='plone plnegov groupware workflow security',
       author='RedTurtle Technology',
       author_email='sviluppoplone@redturtle.it',
-      url='',
+      url='https://github.com/PloneGov-IT/rer.groupware.workflow',
       license='GPL',
       packages=find_packages(exclude=['ez_setup']),
       namespace_packages=['rer', 'rer.groupware'],
