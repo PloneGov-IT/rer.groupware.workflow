@@ -1,10 +1,10 @@
 Changelog
 =========
 
-2.1.2 (unreleased)
+2.2.0 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Editors can't delete/edit folders in Areas [cekk]
 
 
 2.1.1 (2014-04-18)
