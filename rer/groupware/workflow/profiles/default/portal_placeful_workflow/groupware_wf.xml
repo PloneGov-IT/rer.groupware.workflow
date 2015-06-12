@@ -37,5 +37,8 @@
   <type type_id="Folder">
    <bound-workflow workflow_id="groupware_basic_folder_workflow"/>
   </type>
+  <type type_id="Poodle">
+   <bound-workflow workflow_id="groupware_poodle_workflow"/>
+  </type>
  </bindings>
 </object>
