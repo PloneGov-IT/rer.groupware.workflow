@@ -8,7 +8,7 @@
   <five:registerPackage package="." initialize=".initialize" />
   <i18n:registerTranslations directory="locales" />
   <include file="upgrades.zcml" />
-  
+
   <subscriber for = "rer.groupware.room.interfaces.group_room.IGroupRoom
                      rer.groupware.room.events.room_events.IRoomPostCreatedEvent"
               handler = ".events.RoomWorkflowPolicy"
@@ -21,5 +21,12 @@
       description=""
       provides="Products.GenericSetup.interfaces.EXTENSION"
       />
-		
+  <genericsetup:registerProfile
+      name="uninstall"
+      title="RER Groupware: workflows unistall"
+      directory="profiles/uninstall"
+      description=""
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      />
+
 </configure>
