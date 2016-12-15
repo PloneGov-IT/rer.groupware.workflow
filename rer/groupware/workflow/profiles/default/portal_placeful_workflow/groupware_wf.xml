@@ -13,7 +13,7 @@
   <type default_chain="true" type_id="News Item" />
   <type default_chain="true" type_id="Link" />
   <type default_chain="true" type_id="PlonePopoll" />
-  <type type_id="PloneboardConversation">
+  <!-- <type type_id="PloneboardConversation">
    <bound-workflow workflow_id="groupware_conversation_workflow"/>
   </type>
   <type type_id="PloneboardComment">
@@ -21,7 +21,7 @@
   </type>
   <type type_id="PloneboardForum">
    <bound-workflow workflow_id="groupware_forum_workflow"/>
-  </type>
+  </type> -->
   <type type_id="Portlet Page">
    <bound-workflow workflow_id="groupware_folders_workflow"/>
   </type>
