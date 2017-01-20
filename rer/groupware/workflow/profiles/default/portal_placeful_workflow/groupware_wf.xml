@@ -25,9 +25,9 @@
   <type type_id="Portlet Page">
    <bound-workflow workflow_id="groupware_folders_workflow"/>
   </type>
-  <type type_id="Topic">
+  <!-- <type type_id="Topic">
    <bound-workflow workflow_id="groupware_folders_workflow"/>
-  </type>
+  </type> -->
   <type type_id="Collection">
    <bound-workflow workflow_id="groupware_folders_workflow"/>
   </type>
