@@ -5,14 +5,14 @@
   <default>
    <bound-workflow workflow_id="groupware_workflow"/>
   </default>
-  <type default_chain="true" type_id="BlogEntry" />
+  <!-- <type default_chain="true" type_id="BlogEntry" /> -->
   <type default_chain="true" type_id="File" />
   <type default_chain="true" type_id="Image" />
   <type default_chain="true" type_id="Document" />
   <type default_chain="true" type_id="Event" />
   <type default_chain="true" type_id="News Item" />
   <type default_chain="true" type_id="Link" />
-  <type default_chain="true" type_id="PlonePopoll" />
+  <!-- <type default_chain="true" type_id="PlonePopoll" /> -->
   <!-- <type type_id="PloneboardConversation">
    <bound-workflow workflow_id="groupware_conversation_workflow"/>
   </type>
@@ -22,18 +22,18 @@
   <type type_id="PloneboardForum">
    <bound-workflow workflow_id="groupware_forum_workflow"/>
   </type> -->
-  <type type_id="Portlet Page">
+  <!-- <type type_id="Portlet Page">
    <bound-workflow workflow_id="groupware_folders_workflow"/>
-  </type>
+  </type> -->
   <!-- <type type_id="Topic">
    <bound-workflow workflow_id="groupware_folders_workflow"/>
   </type> -->
   <type type_id="Collection">
    <bound-workflow workflow_id="groupware_folders_workflow"/>
   </type>
-  <type type_id="Blog">
+  <!-- <type type_id="Blog">
    <bound-workflow workflow_id="groupware_folders_workflow"/>
-  </type>
+  </type> -->
   <type type_id="Folder">
    <bound-workflow workflow_id="groupware_basic_folder_workflow"/>
   </type>
