@@ -18,3 +18,5 @@ msgstr ""
 msgid "Draft"
 msgstr "Bozza"
 
+msgid "Hide"
+msgstr "Nascondi"
