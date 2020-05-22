@@ -4,7 +4,9 @@ Changelog
 3.0.1 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- We need to allow owner to 'Modify portal content' in
+  groupware_workflow, like simple_publication_workflow
+  [lucabel]
 
 
 3.0.0 (2017-10-11)
