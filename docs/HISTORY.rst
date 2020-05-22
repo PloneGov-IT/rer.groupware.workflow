@@ -1,7 +1,7 @@
 Changelog
 =========
 
-3.0.1 (unreleased)
+3.0.1 (2020-05-22)
 ------------------
 
 - We need to allow owner to 'Modify portal content' in
