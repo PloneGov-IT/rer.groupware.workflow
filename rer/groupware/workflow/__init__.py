@@ -3,12 +3,11 @@
 import logging
 from zope.i18nmessageid import MessageFactory
 
-import config
+from rer.groupware.workflow import config
+from rer.groupware.workflow import patches
 
 logger = logging.getLogger('rer.groupware.workflow')
 groupwareworkflowMessageFactory = MessageFactory('rer.groupware.workflow')
-
-import patches
 
 def initialize(context):
     """Initializer called when used as a Zope 2 product."""

@@ -21,6 +21,7 @@
       description=""
       provides="Products.GenericSetup.interfaces.EXTENSION"
       />
+
   <genericsetup:registerProfile
       name="uninstall"
       title="RER Groupware: workflows unistall"

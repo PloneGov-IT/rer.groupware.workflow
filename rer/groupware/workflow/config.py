@@ -11,4 +11,3 @@ PROJECTNAME = 'rer.groupware.workflow'
 security.declarePublic("CanRetractObjects")
 CanRetractObjects = "Rer Groupware: Can retract objects"
 setDefaultRoles(CanRetractObjects, ('Manager','Owner'))
-   

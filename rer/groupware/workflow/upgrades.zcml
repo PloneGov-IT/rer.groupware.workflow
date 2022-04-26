@@ -2,7 +2,7 @@
     xmlns="http://namespaces.zope.org/zope"
     xmlns:gs="http://namespaces.zope.org/genericsetup"
     i18n_domain="rer.groupware.workflow">
-       
+
   <!-- Upgrade steps -->
   <gs:upgradeStep
         title="Upgrade rer.groupware.workflow"
@@ -11,7 +11,7 @@
         destination="1100"
         handler=".upgrades.to_1100"
         profile="rer.groupware.workflow:default" />
-  
+
   <gs:upgradeStep
         title="Upgrade rer.groupware.workflow"
         description="rer.groupware.workflow upgrade step"
@@ -19,4 +19,5 @@
         destination="1200"
         handler=".upgrades.to_1200"
         profile="rer.groupware.workflow:default" />
+
 </configure>
