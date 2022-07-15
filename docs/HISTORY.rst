@@ -1,10 +1,11 @@
 Changelog
 =========
 
-3.0.2 (unreleased)
+4.0.0 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- major refactoring for python 3.8 and plone 5.2.
+  [reflab]
 
 
 3.0.1 (2020-05-22)
