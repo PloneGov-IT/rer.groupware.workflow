@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 from Products.CMFCore.utils import getToolByName
-
+from Products.CMFPlone.utils import safe_hasattr
 from rer.groupware.workflow import logger
 
 
@@ -16,7 +16,12 @@ class RoomWorkflowPolicy(object):
     def applyWorkflowPolicy(self):
         """Create the worfklow policy object for the room"""
         context = self.context
-        context.manage_addProduct['CMFPlacefulWorkflow'].manage_addWorkflowPolicyConfig()
+
+        # check wfp existance: if we are copying current room
+        # .wf_policy_config it's already there
+        if not safe_hasattr(context, '.wf_policy_config'):
+            context.manage_addProduct['CMFPlacefulWorkflow'].manage_addWorkflowPolicyConfig()
+
         tool = getToolByName(context, 'portal_placeful_workflow')
         config = tool.getWorkflowPolicyConfig(context)
         config.setPolicyIn('groupware_wf', update_security=True)

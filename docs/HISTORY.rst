@@ -4,8 +4,9 @@ Changelog
 4.0.1 (unreleased)
 ------------------
 
-- Nothing changed yet.
-
+- fix problem with room copy/paste and WorkflowPolicy
+  configuration
+  [lucabel]
 
 4.0.0 (2022-07-15)
 ------------------
